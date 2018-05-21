@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = 'Alban Diquet', 'Angela Chow', 'Eric Castro'
   s.source       = { :git => "https://github.com/datatheorem/TrustKit.git", :tag => "#{s.version}" }
+  
+  s.dependency 'RSSwizzle', '~> 0.1.0'
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
