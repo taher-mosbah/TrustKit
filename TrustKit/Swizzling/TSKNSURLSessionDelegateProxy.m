@@ -14,7 +14,7 @@
 #import "../TSKLog.h"
 #import "../TSKTrustDecision.h"
 #import "../TSKPinningValidator.h"
-#import "../Dependencies/RSSwizzle/RSSwizzle.h"
+#import <RSSwizzle/RSSwizzle.h>
 
 @interface TSKNSURLSessionDelegateProxy ()
 /* The NSURLSessionDelegate we're going to proxy */
