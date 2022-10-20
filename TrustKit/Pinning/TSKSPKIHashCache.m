@@ -248,11 +248,6 @@ static const NSString *kTSKKeychainPublicKeyTag = @"TSKKeychainPublicKeyTag"; //
         // iOS 10+
         return [self getPublicKeyDataFromCertificate_unified:certificate];
     }
-    else
-    {
-        // iOS 8 or 9
-        return [self getPublicKeyDataFromCertificate_legacy_ios:certificate];
-    }
 #endif
     // ****** macOS ******
 #else
